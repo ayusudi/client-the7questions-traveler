@@ -64,8 +64,8 @@ export default function Summary() {
   }, []);
   return (
     <section className="flex flex-grow flex-col md:flex-row text-[#101221]">
-      <div className="flex flex-grow md:h-screen gap-4 md:gap-10 m-3 md:m-0 md:p-8 flex-col md:flex-row">
-        <div className="md:w-1/4 bg-light-turqoa shadow rounded-2xl flex flex-col gap-5 p-6">
+      <div className="flex flex-grow md:min-h-screen gap-4 md:gap-10 m-3 md:m-0 md:p-8 flex-col md:flex-row">
+        <div className="md:w-[27%] bg-light-turqoa shadow rounded-2xl flex flex-col gap-5 p-6">
           <iframe
             src={urlLocation}
             width="100%"
@@ -79,7 +79,7 @@ export default function Summary() {
             <h2 className="text-3xl font-semibold">{result.city}</h2>
             <p className="text-justify"> {result.detailOfTheCity}</p>
           </div>
-          <div className="flex flex-col gap-2 md:w-[345px]">
+          <div className="flex flex-col gap-2">
             <h2 className="text-2xl font-semibold">Visa & Iternary</h2>
             <p className="text-justify">{result.visaItinerary}</p>
           </div>
@@ -94,7 +94,7 @@ export default function Summary() {
             ))}
           </div>
         </div>
-        <div className="md:w-3/4 flex flex-col flex-grow gap-4 md:gap-8">
+        <div className="md:w-[63%] flex flex-col flex-grow gap-4 md:gap-8">
           <div className="bg-sky-blue shadow rounded-2xl flex flex-col gap-6 p-6">
             <div className="flex flex-col gap-3">
               <h2 className="text-2xl font-semibold">

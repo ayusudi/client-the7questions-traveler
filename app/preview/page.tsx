@@ -144,11 +144,11 @@ export default function Preview() {
         </div>
         <div className=" font-medium text-steel-blue m-auto flex gap-1 items-center justify-center">
           {yesNo === "Yes" ? (
-            <div className="w-40 h-40 flex justify-center items-center">
+            <div className="w-36 h-36 flex justify-center items-center">
               <AnimationLottie />
             </div>
           ) : (
-            <div className="w-40 h-40 "></div>
+            <div className="w-36 h-36 "></div>
           )}
         </div>
         <div className="text-sm md:text-base flex-grow flex flex-col justify-end">
