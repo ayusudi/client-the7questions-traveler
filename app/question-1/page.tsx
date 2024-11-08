@@ -74,7 +74,7 @@ export default function Question1() {
               clearIconMargin: "3px 8px 0 0",
               zIndex: 10,
             }}
-            inputSearchString={location.name}
+            inputSearchString={location.title}
           />
           {location?.name && (
             <button

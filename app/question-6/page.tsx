@@ -42,6 +42,7 @@ export default function Question6() {
           <div className="mt-4 flex gap-4 flex-wrap w-[80%] m-auto items-center justify-center">
             {months.map((el) => (
               <button
+                key={el}
                 onClick={() => setMonthDeparture(el)}
                 className={
                   "h-12 w-28 p-2 text-white font-bold rounded-lg hover:bg-vivid-blue " +
