@@ -55,7 +55,7 @@ export default function Preview() {
       let statusSouvenirs = localStorage.getItem("q4") === "Yes" ? true : false;
       let { data } = await axios({
         method: "POST",
-        url: "http://localhost:3000/",
+        url: "https://the7questions-traveler-server.ayusudi.com",
         data: {
           location,
           city,
