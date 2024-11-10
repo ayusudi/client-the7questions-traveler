@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <section className="flex min-h-[100vh] items-center">
       <div className="h-[640px] md:h-[700px]  w-full flex flex-col justify-center items-center gap-5">
-        <h1 className="text-3xl font-bold whitespace-pre-wrap text-center text-dark-blue">
+        <h1 className="text-2xl md:text-3xl font-bold whitespace-pre-wrap text-center text-dark-blue">
           By The 7 Questions{"\n"}We Determined to Help You{"\n"}Travel Around
           Asia Pacific
         </h1>
