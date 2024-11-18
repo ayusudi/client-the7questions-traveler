@@ -14,6 +14,7 @@
     "framer-motion": "^11.0.3",
     "lottie-react": "^2.4.0",
     "next": "^14.2.17",
+    "nextjs-google-analytics": "^2.3.7",
     "react": "^18.3.1",
     "react-dom": "^18",
     "react-search-autocomplete": "^8.5.2",
